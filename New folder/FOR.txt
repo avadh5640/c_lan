@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,sp=25;
+    {
+        for(i=1;i<=5;i++)
+        cout<<" ";
+        for(j=1;j<=1;j++){
+            cout<<"#";
+        }
+    }
+}
