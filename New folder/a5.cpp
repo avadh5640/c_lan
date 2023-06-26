@@ -2,14 +2,21 @@
 using namespace std;
 class Test{
     private:
-    int a;
+    int maths,eng,sci,total,per;
     public:
     void setter(){
-        cout<<"Enter a:";
-        cin>>a;
+        cout<<"Enter marks of maths:";
+        cin>>maths;
+        cout<<"Enter marks of eng:";
+        cin>>eng;
+        cout<<"Enter marks of sci:";
+        cin>>sci;
+        total=maths+sci+eng;
+        per=total/3;
     }
     void getter(){
-        cout<<"value of a:"<<a<<endl;
+        cout<<"maths\tsci\teng\ttotal\tper\n";
+        cout<<maths<<"\t"<<sci<<"\t"<<eng<<"\t"<<total<<"\t"<<per<<"\t";
     }
 };
 int main(){
