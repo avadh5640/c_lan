@@ -34,6 +34,6 @@ class test{
 };
 int main(){
   test z;
-  z test();
+  z.test();
 
 }
