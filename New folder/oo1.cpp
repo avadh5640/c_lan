@@ -11,7 +11,7 @@ class box{
     void getdata(){
         return l*w*h;
     }
-    box operat (box &n){
+    box operator+ (box &n){
         box t;
         t.l=l+n.l;
         t.w=w+n.w;
