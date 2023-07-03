@@ -1,11 +1,11 @@
 #include <iostream>
 
-// Function to calculate the volume of a cube
+
 double calculateVolume(double side) {
     return side * side * side;
 }
 
-// Function to calculate the volume of a rectangular prism
+
 double calculateVolume(double length, double width, double height) {
     return length * width * height;
 }
