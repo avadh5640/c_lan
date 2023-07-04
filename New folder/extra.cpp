@@ -1,5 +1,4 @@
 #include <iostream>
-
 class Volume {
 private:
     double value;
