@@ -1,21 +1,24 @@
-.#include <iostream>
+#include <iostream>
 using namespace std;
 class result{
-    int m,s,e,t,n;
+    int m,s,e,t;
     float per;
+    
     public:
     void set()
     {
-        cout<<"\n enter your maths marks:";
+        cout<<"enter your maths marks:";
         cin>>m;
-        cout<<"\n enter your sci marks:";
+        cout<<" enter your sci marks:";
         cin>>s;
-        cout<<"\n enter your eng marks:";
+        cout<<" enter your eng marks:";
         cin>>e;
+        cal ();
+        cout<<""<<endl;
     }
     void cal(){
         t=m+s+e;
-        per=(float)t/3;
+        per=t/3;
     }
     void get(){
         cout<<m<<"\t"<<s<<"\t"<<e<<"\t"<<t<<"\t"<<per<<"\t\n";
@@ -31,9 +34,5 @@ int main(){
     for(i=0;i<3;i++){
         a[i].cal();
     }
-    cout<<"\nm\ts\te\tt\tper";
-    
-   
-        a[i].get();
+            a[i].get();
     }
-
