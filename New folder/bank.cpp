@@ -3,12 +3,12 @@ using namespace std;
 
 // class
 class Bank {
-private:
-    int acno;
+
+public:
+int acno;
     char name[30];
     long balance;
 
-public:
     void OpenAccount()
     {
         cout << "Enter Account Number: ";
